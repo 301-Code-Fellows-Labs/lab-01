@@ -1,0 +1,15 @@
+.box {
+    float: left;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+}
+
+.box-r {
+    float: right;
+    /* border: 1px solid black; */
+    box-sizing: border-box;
+   
+}
+.clearfix {
+    overflow: auto;
+  }
