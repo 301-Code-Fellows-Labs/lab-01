@@ -13,3 +13,8 @@
 .clearfix {
     overflow: auto;
   }
+  @viewport {
+    width: device-width;
+    zoom: 1;
+  }
+  
