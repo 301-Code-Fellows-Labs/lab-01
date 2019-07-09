@@ -1,72 +1,111 @@
 body {
     width: 480px;
-    height: 767px;
-    background-color: #ccc; 
-    box-sizing: border-box;   
+    height: 765px;
+    background-color: #ccc;
+}
+header {
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;           
+}
+.footer {
+    width: 480px;
+    height: 125px;   
+    line-height: 125px;
+    text-align: center;   
+}
+aside {
+    width: 480px;
+    height: 150px;
+    line-height: 150px;
+    text-align: center; 
+}
+main {
+    width: 480px;
+    height: 750px;  
+    
+}
+.cd {
+    width: 480px;
+    height: 125px;
+    line-height: 125px;
+    text-align: center; 
+}
+.efgh {
+    width: 240px;
+    height: 250px;
+    line-height: 250px;
+    text-align: center; 
+}
+    .a {
+        background-color: rgba(255, 0, 0, 0.5);
     }
-    header {
-        width: 480px;
-        height: 75px;
-        line-height: 35px;
-        text-align: center;
+    .b {
+        background-color: rgb(255, 81, 0, 0.5);
     }
-    main {
-        width: 480px;
-        height: 612px;
-        box-sizing: border-box;
+    .c{
+        background-color: rgb(255, 217, 0, 0.5);
     }
-    .footer {
-        width: 480px;
-        height: 90px;
+    .d{
+        background-color: rgb(81, 255, 0, 0.5);
     }
-    /* section {
-        width: 960px;
-        height: 768px;
-    } */
-    aside {
-        width: 480px;
-        height: 1500px;
+    .e{
+        background-color: rgb(20, 222, 236, 0.5);
     }
-    p {
-        line-height: 1.5;
-        text-align: center;
-        vertical-align: middle;
-        display: inline-block;
+    .f{
+        background-color:  rgb(0, 4, 255, 0.5);
     }
-   
+    .g{
+        background-color: rgb(153, 0, 255, 0.5);
+    }
+    .h{
+        background-color: rgb(255, 0, 0, 0.5);
+    }
+    .i{
+        background-color:  rgb(255, 115, 0, 0.5);
+    }
 
 @media all and (min-width: 768px) {
     body {
-        width: 960px;
-        height: 775px;
-        background-color: #ccc;
-     
+            width: 960px;
+            height: 775px;
+            background-color: #ccc;
         }
         header {
             width: 960px;
             height: 100px;
+            line-height: 100px;
+            text-align: center;           
         }
         .footer {
             width: 760px;
-            height: 150px;     
+            height: 150px;   
+            line-height: 150px;
+            text-align: center;   
         }
-    
         aside {
             width: 200px;
             height: 600px;
+            line-height: 600px;
+            text-align: center; 
         }
         main {
-             width: 760px;
-             height: 450px;  
+            width: 760px;
+            height: 450px;  
             
         }
         .cd {
             width: 380px;
             height: 200px;
+            line-height: 200px;
+            text-align: center; 
         }
         .efgh {
             width: 190px;
             height: 250px;
+            line-height: 250px;
+            text-align: center; 
         }
         .a {
             background-color: rgb(255, 115, 0);
@@ -96,4 +135,3 @@ body {
             background-color:  rgb(255, 255, 0);
         }
   }
-
