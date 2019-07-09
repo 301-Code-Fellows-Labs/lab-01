@@ -23,48 +23,8 @@ aside {
 }
 main {
     width: 480px;
-    height: 750px;  
-    
+    height: 750px;     
 }
-.cd {
-    width: 480px;
-    height: 125px;
-    line-height: 125px;
-    text-align: center; 
-}
-.efgh {
-    width: 240px;
-    height: 250px;
-    line-height: 250px;
-    text-align: center; 
-}
-    .a {
-        background-color: rgba(255, 0, 0, 0.5);
-    }
-    .b {
-        background-color: rgb(255, 81, 0, 0.5);
-    }
-    .c{
-        background-color: rgb(255, 217, 0, 0.5);
-    }
-    .d{
-        background-color: rgb(81, 255, 0, 0.5);
-    }
-    .e{
-        background-color: rgb(20, 222, 236, 0.5);
-    }
-    .f{
-        background-color:  rgb(0, 4, 255, 0.5);
-    }
-    .g{
-        background-color: rgb(153, 0, 255, 0.5);
-    }
-    .h{
-        background-color: rgb(255, 0, 0, 0.5);
-    }
-    .i{
-        background-color:  rgb(255, 115, 0, 0.5);
-    }
 
 @media all and (min-width: 768px) {
     body {
@@ -93,45 +53,5 @@ main {
         main {
             width: 760px;
             height: 450px;  
-            
-        }
-        .cd {
-            width: 380px;
-            height: 200px;
-            line-height: 200px;
-            text-align: center; 
-        }
-        .efgh {
-            width: 190px;
-            height: 250px;
-            line-height: 250px;
-            text-align: center; 
-        }
-        .a {
-            background-color: rgb(255, 115, 0);
-        }
-        .b {
-            background-color: rgb(0, 255, 76);
-        }
-        .c{
-            background-color: rgb(0, 0, 255);
-        }
-        .d{
-            background-color: rgb(255, 0, 0);
-        }
-        .e{
-            background-color: rgb(127, 213, 228);
-        }
-        .f{
-            background-color:  rgb(111, 0, 255);
-        }
-        .g{
-            background-color: rgb(255, 94, 0);
-        }
-        .h{
-            background-color: rgb(255, 0, 170);
-        }
-        .i{
-            background-color:  rgb(255, 255, 0);
         }
   }
